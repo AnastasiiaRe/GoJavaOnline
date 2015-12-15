@@ -1,4 +1,4 @@
-import flowers.Flower;
+package flowers;
 
 /**
  * Rose

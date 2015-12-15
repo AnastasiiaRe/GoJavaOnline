@@ -7,6 +7,6 @@ public class File {
 
 	@Override
 	public String toString() {
-		return "I am " + this.getClass() + " ";
+		return "I am a " + this.getClass() + " ";
 	}
 }

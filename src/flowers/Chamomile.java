@@ -1,7 +1,7 @@
 package flowers;
 
 /**
- * flowers.Chamomile
+ * Chamomile
  */
 public class Chamomile extends Flower {
 }

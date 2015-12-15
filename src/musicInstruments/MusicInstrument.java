@@ -1,9 +1,9 @@
-package flowers;
+package musicInstruments;
 
 /**
- * Flower
+ * MusicInstrument
  */
-public class Flower {
+public class MusicInstrument {
 
 	@Override
 	public String toString() {

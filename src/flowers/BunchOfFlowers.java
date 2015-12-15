@@ -1,12 +1,30 @@
 package flowers;
 
-import flowers.Aster;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
- * flowers.BunchOfFlowers
+ * BunchOfFlowers
  */
 public class BunchOfFlowers {
-	Flower rose = new Rose();
-	Flower chamomile = new Chamomile();
-	Flower aster = new Aster();
+	private List<Flower> bunchOfFlowers;
+
+	public BunchOfFlowers() {
+		bunchOfFlowers = new ArrayList<Flower>();
+	}
+
+	public void addFlowerToBunch(Flower flower) {
+		bunchOfFlowers.add(flower);
+	}
+
+	@Override
+	public String toString() {
+		String description = "My bunch contains: ";
+
+		for (Flower flower : bunchOfFlowers) {
+			description += flower.toString();
+		}
+
+		return description;
+	}
 }

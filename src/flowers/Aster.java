@@ -1,7 +1,7 @@
 package flowers;
 
 /**
- * flowers.Aster
+ * Aster
  */
 public class Aster extends Flower {
 }
