@@ -1,9 +1,9 @@
-package files;
+package src.files;
 
 /**
  * File
  */
-public class File {
+public abstract class File {
 
 	@Override
 	public String toString() {

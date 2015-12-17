@@ -1,4 +1,4 @@
-package musicInstruments;
+package src.musicInstruments;
 
 import java.util.ArrayList;
 import java.util.List;

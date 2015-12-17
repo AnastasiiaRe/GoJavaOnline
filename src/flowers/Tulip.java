@@ -1,5 +1,4 @@
-package flowers;
-
+package src.flowers;
 /**
  * Tulip
  */

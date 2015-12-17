@@ -1,4 +1,4 @@
-package musicInstruments;
+package src.musicInstruments;
 
 /**
  * Trumpet

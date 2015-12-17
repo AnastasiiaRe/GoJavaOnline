@@ -1,9 +1,9 @@
-package flowers;
+package src.flowers;
 
 /**
  * Flower
  */
-public class Flower {
+public abstract class Flower {
 
 	@Override
 	public String toString() {

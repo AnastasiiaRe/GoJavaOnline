@@ -1,9 +1,9 @@
-package musicInstruments;
+package src.musicInstruments;
 
 /**
  * MusicInstrument
  */
-public class MusicInstrument {
+public abstract class MusicInstrument {
 
 	@Override
 	public String toString() {

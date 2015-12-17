@@ -1,4 +1,4 @@
-package flowers;
+package src.flowers;
 
 /**
  * RoseBush

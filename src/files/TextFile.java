@@ -1,5 +1,4 @@
-package files;
-
+package src.files;
 /**
  * TextFile
  */
