@@ -1,4 +1,4 @@
-package src.musicInstruments;
+package src.modulethree.musicinstruments;
 
 /**
  * MusicInstrument

@@ -1,4 +1,4 @@
-package src.flowers;
+package src.modulethree.flowers;
 
 /**
  * Chamomile

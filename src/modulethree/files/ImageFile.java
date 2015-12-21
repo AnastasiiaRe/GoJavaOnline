@@ -1,4 +1,4 @@
-package src.files;
+package src.modulethree.files;
 
 /**
  * ImageFile
