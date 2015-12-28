@@ -13,7 +13,11 @@ public class BunchOfFlowers {
 		bunchOfFlowers = new ArrayList<Flower>();
 	}
 
-	public void addFlowerToBunch(Flower flower) {
+	public void addFlowerToBunch(Flower flower) throws NotSuitableFlowerForBunchException {
+		if (flower instanceof RoseBush) {
+			throw new NotSuitableFlowerForBunchException(bunchOfFlowers);
+		}
+
 		bunchOfFlowers.add(flower);
 	}
 
