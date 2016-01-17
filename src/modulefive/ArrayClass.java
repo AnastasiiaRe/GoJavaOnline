@@ -29,8 +29,8 @@ public class ArrayClass {
 				System.out.println("Max = " + arrayOfInts[4]);
 				break;
 			case 3:
-				System.out.println("Max = " + minValue(arrayOfInts));
-				System.out.println("Max = " + maxValue(arrayOfInts));
+				System.out.println("Max = " + minValue(arrayOfInts));  //it's better to use here separate private methods
+				System.out.println("Max = " + maxValue(arrayOfInts));  //instead of putting all code here
 		}
 	}
 
