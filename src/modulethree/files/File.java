@@ -3,10 +3,8 @@ package src.modulethree.files;
 /**
  * File
  */
-public abstract class File {
+public interface File {
 
-	@Override
-	public String toString() {
-		return "I am a " + this.getClass() + " ";
-	}
+
+	public String toString();
 }

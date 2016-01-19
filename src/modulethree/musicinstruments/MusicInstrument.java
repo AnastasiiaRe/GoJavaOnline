@@ -3,10 +3,8 @@ package src.modulethree.musicinstruments;
 /**
  * MusicInstrument
  */
-public abstract class MusicInstrument {
+public interface MusicInstrument {
 
 	@Override
-	public String toString() {
-		return "I am a " + this.getClass() + " ";
-	}
+	public String toString();
 }

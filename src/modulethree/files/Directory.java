@@ -14,7 +14,7 @@ public class Directory {
 	}
 
 	public void addFileToList(File file) {
-		if(file instanceof ImageFile) {
+		if (file instanceof ImageFile) {
 			throw new RuntimeException("You cannot add image to this directory");
 		}
 		fileList.add(file);

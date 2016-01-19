@@ -3,10 +3,8 @@ package src.modulethree.flowers;
 /**
  * Flower
  */
-public abstract class Flower {
+public interface Flower {
 
 	@Override
-	public String toString() {
-		return "I am a " + this.getClass() + " ";
-	}
+	public String toString();
 }
