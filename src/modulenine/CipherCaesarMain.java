@@ -35,10 +35,7 @@ public class CipherCaesarMain {
 			int newIndex = (index + offset) - 26;
 			return alphabet[newIndex];
 		}
-		if (index + offset < 25 && index + offset > 0) {
-			return alphabet[index + offset];
-		}
-		if (index + offset == 0) {
+		if (index + offset < 25 && index + offset >= 0) {
 			return alphabet[index + offset];
 		}
 		return 'X';
