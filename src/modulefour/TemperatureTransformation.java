@@ -6,7 +6,7 @@ import java.text.NumberFormat;
 public class TemperatureTransformation {
 
 	private int temperature;
-	private final static String PATTERN = "#0.00";      //when we use the same value several times it's better to use  field instead of hard code
+	private final static String PATTERN = "#0";      //when we use the same value several times it's better to use  field instead of hard code
 
 	public String transformToCelsius(int degreeF) {
 		NumberFormat formatter = new DecimalFormat(PATTERN);
